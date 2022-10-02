@@ -44,7 +44,6 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: inline-block;
 }
 
 .header--nav-link {
@@ -75,7 +74,7 @@ body {
 }
 
 .header--contacts-links:focus {
-
+    color: #2196F3;
 }
 
 /*hero*/
@@ -95,13 +94,21 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
     font-weight: 900;
-    margin: 450px; 200px; 450px; 280px;
+    width: 696px;
 }
 
 .hero-button {
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    width: 216px;
+    height: 50px;
+} 
+
+.hero-button-text {
     font-style: normal;
     font-size: 16px;
-    line-height: 30px
+    line-height: 30px;
     display: flex;
     align-items: center;
     text-align: center;
@@ -109,3 +116,67 @@ body {
     color: #FFFFFF;
     font-weight: 700;
 }
+
+/*About*/
+
+.about-list, .portfolio-list, .team-list
+
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-title, .team-title-member
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.about-text, .team-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*portfolio main*/
+
+.portfolio-title, .team-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+/*team*/
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
