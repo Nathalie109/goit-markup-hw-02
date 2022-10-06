@@ -54,7 +54,7 @@ body {
     color: #2196F3;
 }
 
-.header--nav-list:focus {
+.header--nav-link:focus {
     color: #2196F3;
 }
 
@@ -71,7 +71,7 @@ body {
     color: #2196F3;
 }
 
-.header--contacts-list:focus {
+.header--contacts-links:focus {
     color: #2196F3;
 }
 
@@ -108,6 +108,13 @@ body {
     font-weight: 700;
 }
 
+.hero-button:hover {
+    color: #2F303A;
+}
+
+.hero-button:focus {
+    color: #2F303A;
+}
 /*About*/
 
 .about-list, .portfolio-list, .team-list
@@ -147,6 +154,14 @@ body {
 }
 
 /*team*/
+
+.team {
+    background-color:  #F5F4FA;
+}
+
+.team-card {
+    background-color: #ffffff;
+}
 .team-title-member {
     font-weight: 500;
     font-size: 16px;
@@ -162,6 +177,7 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
 }
+
 
 /*footer*/
 
@@ -195,6 +211,7 @@ body {
 }
 
 .address-map {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
@@ -204,21 +221,62 @@ body {
 }
 
 .address-contacts {
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
 }
 
+.portfolio2-filter {
+    list-style-type: none;
+}
 
+.portfolio2-button {
+    background-color: #F5F5F5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
 
+.portfolio2-button:hover {
+    color:#2196F3;
 
+}
 
+.portfolio2-button:focus {
+    text-decoration-line: underline
+    
+}
 
+.portfolio2-list {
+    list-style-type: none;
+}
+.portfolio2-card {
+    background-color: #EEEEEE;
+}
 
+.portfolio2-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
 
+.portfolio2-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
 
 
 
