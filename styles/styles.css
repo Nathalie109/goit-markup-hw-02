@@ -97,23 +97,20 @@ body {
     width: 216px;
     height: 50px;
     cursor: pointer;
-} 
-
-.hero-button-text {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
     color: #FFFFFF;
     font-weight: 700;
-}
-
+} 
+  
 .hero-button:hover {
-    color: #2F303A;
+    background-color: #2F303A;
 }
 
 .hero-button:focus {
-    color: #2F303A;
+    background-color: #2F303A;
 }
 /*About*/
 
@@ -236,30 +233,32 @@ body {
 
 .portfolio2-button {
     background-color: #F5F5F5;
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
+    cursor: pointer;
 }
 
 .portfolio2-button:hover {
-    color:#2196F3;
+    background-color:#2196F3;
+    color: #FFFFFF;
 
 }
 
 .portfolio2-button:focus {
-    text-decoration-line: underline
+    background-color:#2196F3;
+    color: #FFFFFF;
     
 }
 
 .portfolio2-list {
     list-style-type: none;
 }
-.portfolio2-card {
-    background-color: #EEEEEE;
-}
+.portfolio2-card 
 
 .portfolio2-title {
     font-weight: 700;
